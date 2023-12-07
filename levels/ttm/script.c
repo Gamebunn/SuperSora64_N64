@@ -154,7 +154,7 @@ const LevelScript level_ttm_entry[] = {
         TERRAIN(/*terrainData*/ ttm_seg7_area_2_collision),
         MACRO_OBJECTS(/*objList*/ ttm_seg7_area_2_macro_objs),
         INSTANT_WARP(/*index*/ 2, /*destArea*/ 3, /*displace*/ 10240, 7168, 10240),
-        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_EVENT_POWERUP),
+        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_LEVEL_SLIDE),
         TERRAIN_TYPE(/*terrainType*/ TERRAIN_SLIDE),
     END_AREA(),
 
@@ -165,7 +165,7 @@ const LevelScript level_ttm_entry[] = {
         TERRAIN(/*terrainData*/ ttm_seg7_area_3_collision),
         MACRO_OBJECTS(/*objList*/ ttm_seg7_area_3_macro_objs),
         INSTANT_WARP(/*index*/ 3, /*destArea*/ 4, /*displace*/ -11264, 13312, 3072),
-        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_EVENT_POWERUP),
+        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_LEVEL_SLIDE),
         TERRAIN_TYPE(/*terrainType*/ TERRAIN_SLIDE),
     END_AREA(),
 
@@ -178,7 +178,7 @@ const LevelScript level_ttm_entry[] = {
         JUMP_LINK(script_func_local_7),
         TERRAIN(/*terrainData*/ ttm_seg7_area_4_collision),
         MACRO_OBJECTS(/*objList*/ ttm_seg7_area_4_macro_objs),
-        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_EVENT_POWERUP),
+        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_LEVEL_SLIDE),
         TERRAIN_TYPE(/*terrainType*/ TERRAIN_SLIDE),
     END_AREA(),
 

@@ -55,40 +55,28 @@
             [1, 32700],
             [32700, 29430],
             "hang"
-        ],
-            "envelope9": [
-                [2, 32700],
-                [1, 32700],
-                [32700, 29430],
-                "hang"
-            ],
-            "envelope10": [
-                [2, 32700],
-                [1, 32700],
-                [32700, 29430],
-                "hang"
         ]
     },
     "instruments": {
         "inst0": {
             "release_rate": 208,
             "envelope": "envelope0",
-            "sound": "35_gospel_organ"
+            "sound": "35_gospel_organ_F4"
         },
         "inst1": {
             "release_rate": 208,
             "envelope": "envelope1",
-            "sound": "36_sawtooth_synth"
+            "sound": "36_sawtooth_synth_Eb1"
         },
         "inst2": {
             "release_rate": 208,
             "envelope": "envelope2",
-            "sound": "22_boys_choir"
+            "sound": "37_square_synth_C5"
         },
         "inst3": {
             "release_rate": 208,
             "envelope": "envelope3",
-            "sound": "29_orchestra_hit"
+            "sound": "29_orchestra_hit_C3"
         },
         "percussion": [
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.210224}},
@@ -186,26 +174,16 @@
             "envelope": "envelope8",
             "sound_lo": "38_electric_kick_drum",
             "sound": {"sample": "08", "tuning": 2.121321},
-            "sound_hi": "38_electric_kick_drum"        
-        },
-            "inst8": {
-                "release_rate": 208,
-                "envelope": "envelope9",
-                "sound": "29_orchestra_hit"
-            },
-            "inst9": {
-                "release_rate": 208,
-                "envelope": "envelope10",
-                "sound": "29_orchestra_hit"
-            }
+            "sound_hi": "38_electric_kick_drum"
+        }
     },
     "instrument_list": [
         "inst0",
         "inst1",
         "inst2",
         "inst3",
-        "inst8",
-        "inst9",
+        null,
+        null,
         null,
         null,
         null,
