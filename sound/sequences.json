@@ -37,6 +37,15 @@
   "23_drown": [ "13" ],
   "24_super": [ "17" ],
   "25_emerald": [ "0E" ],
+  "26_bob_springvalley": [ "26_streamed_audio" ],
+  "27_race_vsmetal": [ "26_streamed_audio" ],
+  "28_wf_thesky": [ "26_streamed_audio" ],
+  "29_jrb_tidaltempest": [ "26_streamed_audio" ],
+  "2A_ttc_rooftoprun": [ "27_streamed_audio2" ],
+  "2B_rr_skyroad": [ "27_streamed_audio2" ],
+  "2C_thi_waveocean": [ "27_streamed_audio2" ],
+  "2D_ssl_dustydesert": [ "27_streamed_audio2" ],
+  "2E_ssl2_pyramidcave": [ "27_streamed_audio2" ],
   "22_cutscene_lakitu": {
     "ifdef": [ "VERSION_US", "VERSION_EU" ],
     "banks": [ "1B" ]

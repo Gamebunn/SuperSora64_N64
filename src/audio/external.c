@@ -281,43 +281,52 @@ u16 sLevelAcousticReaches[LEVEL_COUNT] = {
 // Default volume for background music sequences (playing on player 0).
 u8 sBackgroundMusicDefaultVolume[] = {
     127, // SEQ_SOUND_PLAYER
-    80,  // SEQ_EVENT_CUTSCENE_COLLECT_STAR
-    80,  // SEQ_MENU_TITLE_SCREEN
-    75,  // SEQ_LEVEL_GRASS
-    70,  // SEQ_LEVEL_INSIDE_CASTLE
-    75,  // SEQ_LEVEL_WATER
-    75,  // SEQ_LEVEL_HOT
-    75,  // SEQ_LEVEL_BOSS_KOOPA
-    70,  // SEQ_LEVEL_SNOW
-    65,  // SEQ_LEVEL_SLIDE
-    80,  // SEQ_LEVEL_SPOOKY
+    127,  // SEQ_EVENT_CUTSCENE_COLLECT_STAR; new_starget
+    127,  // SEQ_MENU_TITLE_SCREEN; new_credits_and_title
+    75,  // SEQ_LEVEL_GRASS; new_ttm
+    127,  // SEQ_LEVEL_INSIDE_CASTLE; new_castle_music
+    127,  // SEQ_LEVEL_WATER; new_ddd
+    127,  // SEQ_LEVEL_HOT; new_lll
+    127,  // SEQ_LEVEL_BOSS_KOOPA; newwdw
+    127,  // SEQ_LEVEL_SNOW
+    127,  // SEQ_LEVEL_SLIDE; new_sl2
+    127,  // SEQ_LEVEL_SPOOKY
     65,  // SEQ_EVENT_PIRANHA_PLANT
-    85,  // SEQ_LEVEL_UNDERGROUND
+    127,  // SEQ_LEVEL_UNDERGROUND
     75,  // SEQ_MENU_STAR_SELECT
-    65,  // SEQ_EVENT_POWERUP
+    127,  // SEQ_EVENT_POWERUP; new_slide 
     70,  // SEQ_EVENT_METAL_CAP
     65,  // SEQ_EVENT_KOOPA_MESSAGE
-    70,  // SEQ_LEVEL_KOOPA_ROAD
+    127,  // SEQ_LEVEL_KOOPA_ROAD; eggmanstage3
     70,  // SEQ_EVENT_HIGH_SCORE
-    65,  // SEQ_EVENT_MERRY_GO_ROUND
+    127,  // SEQ_EVENT_MERRY_GO_ROUND; bbh2
     80,  // SEQ_EVENT_RACE
-    70,  // SEQ_EVENT_CUTSCENE_STAR_SPAWN
-    85,  // SEQ_EVENT_BOSS
+    127,  // SEQ_EVENT_CUTSCENE_STAR_SPAWN; new_star_spawn
+    127,  // SEQ_EVENT_BOSS; new_boss
     75,  // SEQ_EVENT_CUTSCENE_COLLECT_KEY
     75,  // SEQ_EVENT_ENDLESS_STAIRS
-    85,  // SEQ_LEVEL_BOSS_KOOPA_FINAL
-    70,  // SEQ_EVENT_CUTSCENE_CREDITS
+    127,  // SEQ_LEVEL_BOSS_KOOPA_FINAL; eggman3
+    127,  // SEQ_EVENT_CUTSCENE_CREDITS; eggman1
     80,  // SEQ_EVENT_SOLVE_PUZZLE
     80,  // SEQ_EVENT_TOAD_MESSAGE
-    70,  // SEQ_EVENT_PEACH_MESSAGE
+    127,  // SEQ_EVENT_PEACH_MESSAGE; new_lll2
     75,  // SEQ_EVENT_CUTSCENE_INTRO
     80,  // SEQ_EVENT_CUTSCENE_VICTORY
-    70,  // SEQ_EVENT_CUTSCENE_ENDING
+    127,  // SEQ_EVENT_CUTSCENE_ENDING; tikaltheme
     65,  // SEQ_MENU_FILE_SELECT
     0,   // SEQ_EVENT_CUTSCENE_LAKITU (not in JP)
     75, // SEQ_DROWN
     65, // SEQ_SUPER; also the cap music
     70, // SEQ_EMERALD
+    127, // bob_springvalley
+    127, // race_vsmetal
+    127, // wf_thesky
+    127, // jrb_tidaltempest
+    127, // ttc_rooftoprun
+    127, // rr_skyroad
+    127, // thi_waveocean
+    127, // ssl_dustydesert
+    127, // ssl2_pyramidcave
 };
 
 STATIC_ASSERT(ARRAY_COUNT(sBackgroundMusicDefaultVolume) == SEQ_COUNT,

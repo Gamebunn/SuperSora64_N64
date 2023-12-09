@@ -2500,7 +2500,7 @@ static void end_peach_cutscene_star_dance(struct MarioState *m) {
 #ifndef VERSION_JP
             seq_player_unlower_volume(SEQ_PLAYER_LEVEL, 60);
 #endif
-            play_cutscene_music(SEQUENCE_ARGS(15, SEQ_EVENT_CUTSCENE_CREDITS));
+            play_cutscene_music(SEQUENCE_ARGS(15, SEQ_MENU_TITLE_SCREEN));
             break;
 
         case 142:
