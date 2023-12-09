@@ -443,8 +443,8 @@ void init_mario_after_warp(void) {
 
 #ifndef VERSION_JP
         if (gCurrLevelNum == LEVEL_BOB
-            && get_current_background_music() != SEQUENCE_ARGS(4, SEQ_VSMETAL) && sTimerRunning) {
-            play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_VSMETAL), 0);
+            && get_current_background_music() != SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE) && sTimerRunning) {
+            play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE), 0);
         }
 #endif
 
