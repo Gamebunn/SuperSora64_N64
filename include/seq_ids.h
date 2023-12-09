@@ -45,15 +45,7 @@ enum SeqId {
     SEQ_DROWN,			              // 0x23 in-use (midi)
     SEQ_SUPER,                        // 0x24 in-use (midi)
     SEQ_EMERALD,                      // 0x25 in-use (midi)
-    SEQ_NEWBOB,                       // 0x26 new_bob
     SEQ_VSMETAL,                      // 0x27 race_vsmetal
-    SEQ_NEWWF,                        // 0x28 new_wf
-    SEQ_NEWJRB,                       // 0x29 new_jrb
-    SEQ_NEWTTC,                       // 0x2A new_ttc
-    SEQ_NEWRR,                        // 0x2B new_rr
-    SEQ_NEWTHI,                       // 0x2C new_thi
-    SEQ_NEWSSL,                       // 0x2D new_ssl
-    SEQ_NEWSSL2,                      // 0x2E new_ssl2
     SEQ_COUNT
 };
 
